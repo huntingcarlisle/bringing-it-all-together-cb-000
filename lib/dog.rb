@@ -78,7 +78,7 @@ class Dog
     if ! dog.empty?
       
     else
-      dog.
+      dog = Dog.
     end
   end
   
