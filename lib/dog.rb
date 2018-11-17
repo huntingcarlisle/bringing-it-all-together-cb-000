@@ -45,5 +45,7 @@ class Dog
     end
   end
   
+  def self.new_from_db
+  
   
 end
