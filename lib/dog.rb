@@ -9,7 +9,7 @@ class Dog
   end
   
   def self.create(name:, breed:)
-    
+    dog = Dog.new(name, breed)
   end
   
   def self.create_table
