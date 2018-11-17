@@ -27,7 +27,7 @@ class Dog
   end
   
   def update
-    dog = Dog.new(name, breed)
+    sql = "UPDATE dogs"
     
   
   def save
