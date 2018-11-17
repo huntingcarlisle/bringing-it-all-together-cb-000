@@ -31,7 +31,7 @@ class Dog
       self.update
     else
       sql = <<-SQL
-        
+        INSERT INTO 
       SQL
       DB[:conn].execute(sql, self.name, self.breed)
     end
