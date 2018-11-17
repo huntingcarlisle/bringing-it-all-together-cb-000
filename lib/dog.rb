@@ -10,6 +10,8 @@ class Dog
   
   def self.create(name:, breed:)
     dog = Dog.new(name, breed)
+    dog.save
+    return dog
   end
   
   def self.create_table
